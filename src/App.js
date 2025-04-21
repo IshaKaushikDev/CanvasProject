@@ -11,6 +11,7 @@ function loadImage(src) {
   });
 }
 
+
 function loadVideo(src) {
   return new Promise((resolve) => {
     const video = document.createElement("video");
